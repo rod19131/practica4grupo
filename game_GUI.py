@@ -62,8 +62,8 @@ canvas = tk.Canvas(root, width=300, height=500, bg="sky blue")
 canvas.pack()
 
 # Crear jugador
-Jugador1 = Player(300/2 - 20/2, 500 - 20, 'green')
-Jugador2 = Player(300/2 - 20/2, 500 - 20, 'blue')
+Jugador1 = Player(300/2 - 20/2, 500 - 20, 'yellow')
+Jugador2 = Player(300/2 - 20/2, 500 - 20, 'black')
 
 
 # Create the objects
