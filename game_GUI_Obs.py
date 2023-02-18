@@ -1,3 +1,4 @@
+# Parte de Oscar Fuentes 19816
 import random
 # Clase del obstaculo
 class Object:
@@ -18,4 +19,4 @@ class Object:
         self.y += 10
 
     def draw(self, canvas):
-        canvas.create_oval(self.x, self.y, self.x + self.width, self.y + self.height, fill="red")
+        canvas.create_oval(self.x, self.y, self.x + self.width, self.y + self.height, fill="orange")
