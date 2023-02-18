@@ -1,10 +1,12 @@
+#Autor: Jose Rodriguez 19131
+
 # Clase del jugador
 class Player:
     def _init_(self, x, y, color):
         self.x = x
         self.y = y
-        self.width = 20
-        self.height = 20
+        self.width = 25
+        self.height = 25
         self.color = color
 
     def move_left(self):
